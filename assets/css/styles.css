@@ -112,7 +112,7 @@ a {
 /* Hero */
 .hero {
     padding-top: 60px;
-    height: 100vh;
+    margin-bottom: 87.69px;
     background: #fff;
     border-top: 1px solid;
     border-image: linear-gradient(
@@ -295,4 +295,26 @@ a {
     bottom: -68px;
     z-index: 2;
     transform: rotate(180deg);
+}
+
+/* Brand */
+.brand {
+    padding-top: 42.31px;
+}
+
+.brand__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 77px 121px;
+    border-radius: 999px;
+    background: #e2eddf;
+}
+
+.brand__item-group {
+    font-size: 0;
+}
+
+.brand__item-name {
+    margin-left: 11px;
 }
