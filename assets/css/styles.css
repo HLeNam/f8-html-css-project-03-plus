@@ -318,3 +318,121 @@ a {
 .brand__item-name {
     margin-left: 11px;
 }
+
+/* Service */
+.service {
+    margin-top: 106px;
+}
+
+.service__top {
+    display: flex;
+}
+
+.section-top {
+    color: #152427;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.625; /* 162.5% */
+}
+
+.section-top__line {
+    display: inline-block;
+    margin-right: 21px;
+    margin-bottom: 9px;
+    width: 25px;
+    height: 1px;
+    background: #152427;
+}
+
+.section-heading {
+    margin-top: 12px;
+    max-width: 520px;
+    color: #152427;
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1.2381; /* 123.81% */
+}
+
+.section-heading__line {
+    display: inline-block;
+    margin-left: 21px;
+    margin-bottom: 9px;
+    width: 66px;
+    height: 2px;
+    background: #152427;
+}
+
+.service__control {
+    display: flex;
+    column-gap: 17px;
+    margin-top: 79px;
+    margin-left: 422px;
+}
+
+.service__control-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    color: #152427;
+    background: #e2eddf;
+    transition: 0.25s;
+}
+
+.service__control-btn:hover {
+    color: #ffffff;
+    background: #143c3c;
+    cursor: pointer;
+}
+
+.service__control-btn--next {
+    transform: rotate(180deg);
+}
+
+.service__list {
+    margin-top: 76px;
+    width: 100%;
+    display: flex;
+    column-gap: 16px;
+}
+
+.service-item {
+    width: 32.5%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.service-item:hover {
+    background: #fff;
+    box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+}
+
+.service-item__img {
+    width: 100%;
+    height: 318px;
+    object-fit: cover;
+}
+
+.service-item__body {
+    padding: 24px 18px;
+}
+
+.service-item__heading {
+    color: #152427;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+}
+
+.service-item__desc {
+    max-width: 268px;
+    margin-top: 18px;
+    color: #7d8188;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.71429; /* 171.429% */
+}
