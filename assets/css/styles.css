@@ -483,7 +483,7 @@ a {
 .about-summary {
     position: absolute;
     bottom: 8px;
-    right: 0;
+    right: -9px;
     width: 143px;
     height: 144px;
     border-radius: 8px;
@@ -627,4 +627,110 @@ a {
 
 .section-top__centre {
     margin-bottom: 0;
+}
+
+/* Process */
+.process {
+    margin-top: 79px;
+}
+
+.process__heading {
+    padding-top: 36px;
+}
+
+.process__list {
+    margin-top: 81px;
+}
+
+.process-item {
+    position: relative;
+    min-height: 151px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 33px;
+    background: #fff;
+    transition: 0.25s;
+}
+
+.process-item:hover {
+    min-height: 185px;
+    background: #e2eddf;
+}
+
+.process-item:hover .process-item__link {
+    display: inline-block;
+}
+
+.process-item:hover::after {
+    visibility: hidden;
+}
+
+.process-item::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(
+        180deg,
+        #83a17d 4.17%,
+        rgba(131, 161, 125, 0) 36.46%
+    );
+}
+
+.process-item__order {
+    min-width: 109px;
+    color: #143c3c;
+    font-size: 7.2rem;
+    font-weight: 600;
+    line-height: 0.72222; /* 72.222% */
+}
+
+.process-item__heading {
+    margin-left: 64px;
+    min-width: 176px;
+    color: #152427;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+}
+
+.process-item__link {
+    display: none;
+    margin-top: 22px;
+    color: #575d5e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1; /* 100% */
+}
+
+.process-item__link:hover {
+    text-decoration: underline;
+}
+
+.process-item__desc {
+    margin-left: auto;
+    max-width: 572px;
+    color: #7d8188;
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.55556; /* 155.556% */
+}
+
+.process-item:hover .process-item__desc {
+    visibility: hidden;
+}
+
+.process-item__img {
+    visibility: hidden;
+    position: absolute;
+    right: 92px;
+    bottom: 0;
+}
+
+.process-item:hover .process-item__img {
+    visibility: visible;
 }
