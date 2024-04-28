@@ -8,6 +8,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -450,7 +451,7 @@ a {
 
 /* About */
 .about {
-    margin-top: 149px;
+    padding-top: 149px;
 }
 
 .about__inner {
@@ -899,7 +900,8 @@ a {
 
 /* Blog */
 .blog {
-    margin-top: 184px;
+    margin-top: 84px;
+    padding-top: 100px;
 }
 
 .blog__row {
@@ -1070,6 +1072,10 @@ a {
     background: transparent;
     outline: none;
     border: none;
+}
+
+.footer__submit:hover {
+    cursor: pointer;
 }
 
 .footer__separation {
